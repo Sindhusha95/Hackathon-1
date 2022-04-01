@@ -1,0 +1,35 @@
+body{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.pageTitle {
+    text-align: center;
+    outline-style:groove;
+    color: rgb(253, 121, 13);
+    background: rgb(224, 195, 28);
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+    gap: 1em;
+    padding: 1em;
+    margin: 0 auto;
+    background: white;
+}
+
+.breweryData{
+    background-color: rgb(224, 195, 28);
+    outline-style:groove;
+    outline-color: chocolate;
+    color: rgb(253, 121, 13);
+    padding:1rem;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    gap: 1em;
+
+}
